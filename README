@@ -1,0 +1,19 @@
+Crosscheck
+
+Background
+
+I recently had to correlate two text files, each with a large 
+amount of entries (>250k lines) in them. Finding similarities
+using grep -f [file1] [file2] was a total waste of time, so 
+I just decided to use Python's generators to accomplish what
+I want.
+
+Usage
+
+bin/crosscheck.py [reference file] [file to grep]
+
+Requirements
+
+Python > 2.3
+
+
